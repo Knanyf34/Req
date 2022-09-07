@@ -1,7 +1,9 @@
 import requests as requests
+
 url = 'https://jsonplaceholder.typicode.com/todos/2'
 response = requests\
     .get(url)
+
 print(type(response))
 print(response)
 print(response.status_code)
